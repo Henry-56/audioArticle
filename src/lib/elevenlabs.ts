@@ -15,7 +15,7 @@ export async function generateAudio(text: string, apiKey: string) {
             {
                 text,
                 modelId: 'eleven_turbo_v2_5',
-                output_format: 'mp3_44100_128',
+                outputFormat: 'mp3_44100_128',
             }
         );
 
